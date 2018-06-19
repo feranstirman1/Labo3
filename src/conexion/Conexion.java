@@ -24,7 +24,8 @@ public class Conexion {
     
     public synchronized static Conexion conectar(){
         if (instance == null){
-            return new Conexion();
+            instance=  new Conexion();
+            return instance;
         }
         return instance;
     }
