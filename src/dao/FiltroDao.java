@@ -17,7 +17,7 @@ import modelo.Filtro;
 import java.util.logging.Logger;
 /**
  *
- * @author LN710Q
+ * @author fer
  */
 public class FiltroDao  implements metodos<Filtro> {
     
